@@ -222,7 +222,7 @@ export const categorizedRoutes = [
         label: "to Typescript",
         path: "/js-object-to-typescript",
         desc: "An online REPL for converting JS Object to Typescript."
-      },
+      }
     ]
   },
   {
@@ -393,6 +393,10 @@ export const categorizedRoutes = [
       {
         label: "Cadence to Go",
         path: "/cadence-to-go"
+      },
+      {
+        label: "[] to {}",
+        path: "/square-to-curly"
       }
     ]
   }
