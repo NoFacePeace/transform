@@ -44,5 +44,6 @@ const config = {
 };
 
 config.output = "export";
+config.basePath = process.env.PAGES_BASE_PATH;
 
 module.exports = config;
