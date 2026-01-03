@@ -44,6 +44,9 @@ const config = {
 };
 
 config.output = "export";
-config.basePath = process.env.PAGES_BASE_PATH;
+config.basePath = "/transform";
+config.assetPrefix = "/transform/";
+config.reactStrictMode = false;
+config.trailingSlash = true;
 
 module.exports = config;
