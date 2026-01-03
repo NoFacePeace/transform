@@ -23,7 +23,7 @@ const config = {
         loader: "worker-loader",
         options: {
           name: "static/[hash].worker.js",
-          publicPath: "/transform/_next/"
+          publicPath: "/_next/"
         }
       }
     });
@@ -44,9 +44,5 @@ const config = {
 };
 
 config.output = "export";
-config.basePath = "/transform";
-config.assetPrefix = "/transform/";
-config.reactStrictMode = false;
-config.trailingSlash = true;
 
 module.exports = config;
