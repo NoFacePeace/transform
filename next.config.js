@@ -23,7 +23,7 @@ const config = {
         loader: "worker-loader",
         options: {
           name: "static/[hash].worker.js",
-          publicPath: "/_next/"
+          publicPath: "/transform/_next/"
         }
       }
     });
