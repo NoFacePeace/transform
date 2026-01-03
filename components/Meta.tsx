@@ -5,7 +5,7 @@ export const Meta = ({ title, description, url }) => {
   return (
     <Head>
       <title>{title}</title>
-      <link rel="icon" href="/static/favicon.png" type="image/png" />
+      <link rel="icon" href="/transform/static/favicon.png" type="image/png" />
       <meta content={description} name="description" />
       <meta name="og:url" content={url} />
       <meta name="og:title" content={title} />
@@ -20,7 +20,7 @@ export const Meta = ({ title, description, url }) => {
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content="ritz078" />
-      <link rel="manifest" href="/static/site.webmanifest" />
+      <link rel="manifest" href="/transform/static/site.webmanifest" />
     </Head>
   );
 };
